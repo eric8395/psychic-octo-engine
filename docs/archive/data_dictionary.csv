@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Field,Description,
 id,A unique LC assigned ID for the loan listing.,
 funded_amnt,The total amount committed to that loan at that point in time.,
@@ -54,3 +55,61 @@ revol_bal_joint ," Sum of revolving credit balance of the co-borrowers, net of d
 sec_app_fico_range_high , FICO range (low) for the secondary applicant,
 sec_app_earliest_cr_line , Earliest credit line at time of application for the secondary applicant,
 sec_app_inq_last_6mths , Credit inquiries in the last 6 months at time of application for the secondary applicant,
+=======
+﻿Field,Description
+id,A unique LC assigned ID for the loan listing.
+funded_amnt,The total amount committed to that loan at that point in time.
+term,The number of payments on the loan. Values are in months and can be either 36 or 60.
+int_rate,Interest Rate on the loan
+installment,The monthly payment owed by the borrower if the loan originates.
+emp_title,The job title supplied by the Borrower when applying for the loan.*
+emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
+home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER"
+annual_inc,The self-reported annual income provided by the borrower during registration.
+loan_status,Current status of the loan (target column)
+purpose,A category provided by the borrower for the loan request. 
+zip_code,The first 3 numbers of the zip code provided by the borrower in the loan application.
+addr_state,The state provided by the borrower in the loan application
+dti,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+delinq_2yrs,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+earliest_cr_line,The month the borrower's earliest reported credit line was opened
+fico_range_high,The upper boundary range the borrower’s FICO at loan origination belongs to.
+inq_last_6mths,The number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+mths_since_last_delinq,The number of months since the borrower's last delinquency.
+open_acc,The number of open credit lines in the borrower's credit file.
+revol_bal,Total credit revolving balance
+revol_util,"Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit."
+total_acc,The total number of credit lines currently in the borrower's credit file
+application_type,Indicates whether the loan is an individual application or a joint application with two co-borrowers
+annual_inc_joint,The combined self-reported annual income provided by the co-borrowers during registration
+dti_joint,"A ratio calculated using the co-borrowers' total monthly payments on the total debt obligations, excluding mortgages and the requested LC loan, divided by the co-borrowers' combined self-reported monthly income"
+open_act_il,Number of currently active installment trades
+open_il_24m,Number of installment accounts opened in past 24 months
+il_util,Ratio of total current balance to high credit/credit limit on all install acct
+open_rv_24m,Number of revolving trades opened in past 24 months
+all_util,Balance to credit limit on all trades
+total_rev_hi_lim  ,Total revolving high credit/credit limit
+inq_last_12m,Number of credit inquiries in past 12 months
+acc_open_past_24mths,Number of trades opened in past 24 months.
+bc_open_to_buy,Total open to buy on revolving bankcards.
+bc_util,Ratio of total current balance to high credit/credit limit for all bankcard accounts.
+mort_acc,Number of mortgage accounts.
+mths_since_recent_bc,Months since most recent bankcard account opened.
+mths_since_recent_bc_dlq,Months since most recent bankcard delinquency
+mths_since_recent_revol_delinq,Months since most recent revolving delinquency.
+num_accts_ever_120_pd,Number of accounts ever 120 or more days past due
+num_rev_accts,Number of revolving accounts
+num_rev_tl_bal_gt_0,Number of revolving trades with balance >0
+num_sats,Number of satisfactory accounts
+num_tl_90g_dpd_24m,Number of accounts 90 or more days past due in last 24 months
+num_tl_op_past_12m,Number of accounts opened in past 12 months
+pct_tl_nvr_dlq,Percent of trades never delinquent
+percent_bc_gt_75,Percentage of all bankcard accounts > 75% of limit.
+pub_rec_bankruptcies,Number of public record bankruptcies
+total_bal_ex_mort,Total credit balance excluding mortgage
+total_bc_limit,Total bankcard high credit/credit limit
+revol_bal_joint ," Sum of revolving credit balance of the co-borrowers, net of duplicate balances"
+sec_app_fico_range_high , FICO range (low) for the secondary applicant
+sec_app_earliest_cr_line , Earliest credit line at time of application for the secondary applicant
+sec_app_inq_last_6mths , Credit inquiries in the last 6 months at time of application for the secondary applicant
+>>>>>>> 644535644020703185c1a42a9a73fb3b827660ee
