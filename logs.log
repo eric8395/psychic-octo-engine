@@ -1,0 +1,159 @@
+2024-02-13 21:01:34,798:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:01:34,799:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:01:34,799:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:01:34,799:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:01:40,812:INFO:PyCaret ClassificationExperiment
+2024-02-13 21:01:40,812:INFO:Logging name: clf-default-name
+2024-02-13 21:01:40,812:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-02-13 21:01:40,812:INFO:version 3.2.0
+2024-02-13 21:01:40,812:INFO:Initializing setup()
+2024-02-13 21:01:40,812:INFO:self.USI: d40f
+2024-02-13 21:01:40,812:INFO:self._variable_keys: {'X', 'fold_groups_param', 'fold_shuffle_param', '_ml_usecase', 'fix_imbalance', 'pipeline', 'n_jobs_param', 'target_param', 'memory', 'gpu_n_jobs_param', 'y_train', 'seed', 'X_train', 'data', 'logging_param', 'X_test', '_available_plots', 'exp_name_log', 'y', 'fold_generator', 'is_multiclass', 'exp_id', 'gpu_param', 'USI', 'log_plots_param', 'y_test', 'idx', 'html_param'}
+2024-02-13 21:01:40,813:INFO:Checking environment
+2024-02-13 21:01:40,813:INFO:python_version: 3.8.5
+2024-02-13 21:01:40,813:INFO:python_build: ('default', 'Sep  4 2020 02:22:02')
+2024-02-13 21:01:40,813:INFO:machine: x86_64
+2024-02-13 21:01:41,440:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:01:41,441:INFO:Memory: svmem(total=8589934592, available=510431232, percent=94.1, used=848470016, free=8851456, active=500113408, inactive=478990336, wired=348356608)
+2024-02-13 21:01:41,441:INFO:Physical Core: 8
+2024-02-13 21:01:41,441:INFO:Logical Core: 8
+2024-02-13 21:01:41,441:INFO:Checking libraries
+2024-02-13 21:01:41,441:INFO:System:
+2024-02-13 21:01:41,441:INFO:    python: 3.8.5 (default, Sep  4 2020, 02:22:02)  [Clang 10.0.0 ]
+2024-02-13 21:01:41,441:INFO:executable: /Users/eric/opt/anaconda3/bin/python
+2024-02-13 21:01:41,441:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:01:41,441:INFO:PyCaret required dependencies:
+2024-02-13 21:01:41,809:WARNING:/Users/eric/opt/anaconda3/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
+
+2024-02-13 21:01:41,809:WARNING:/Users/eric/opt/anaconda3/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.Float64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
+
+2024-02-13 21:01:41,809:WARNING:/Users/eric/opt/anaconda3/lib/python3.8/site-packages/dask/dataframe/utils.py:367: FutureWarning: pandas.UInt64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  _numeric_index_types = (pd.Int64Index, pd.Float64Index, pd.UInt64Index)
+
+2024-02-13 21:04:29,809:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:04:29,810:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:04:29,810:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:04:29,810:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:04:35,734:INFO:PyCaret ClassificationExperiment
+2024-02-13 21:04:35,734:INFO:Logging name: clf-default-name
+2024-02-13 21:04:35,734:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-02-13 21:04:35,734:INFO:version 3.2.0
+2024-02-13 21:04:35,734:INFO:Initializing setup()
+2024-02-13 21:04:35,734:INFO:self.USI: e6ed
+2024-02-13 21:04:35,734:INFO:self._variable_keys: {'logging_param', 'memory', 'y_test', 'n_jobs_param', 'fold_generator', 'fold_groups_param', 'X_test', 'exp_name_log', 'fold_shuffle_param', '_available_plots', 'y_train', 'idx', 'target_param', 'fix_imbalance', 'y', 'gpu_n_jobs_param', 'X_train', 'seed', 'USI', 'html_param', '_ml_usecase', 'pipeline', 'log_plots_param', 'exp_id', 'data', 'X', 'gpu_param', 'is_multiclass'}
+2024-02-13 21:04:35,734:INFO:Checking environment
+2024-02-13 21:04:35,734:INFO:python_version: 3.8.13
+2024-02-13 21:04:35,734:INFO:python_build: ('default', 'Mar 28 2022 06:16:26')
+2024-02-13 21:04:35,734:INFO:machine: x86_64
+2024-02-13 21:04:36,398:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:04:36,399:INFO:Memory: svmem(total=8589934592, available=491212800, percent=94.3, used=851968000, free=10940416, active=482684928, inactive=443121664, wired=369283072)
+2024-02-13 21:04:36,399:INFO:Physical Core: 8
+2024-02-13 21:04:36,399:INFO:Logical Core: 8
+2024-02-13 21:04:36,399:INFO:Checking libraries
+2024-02-13 21:04:36,399:INFO:System:
+2024-02-13 21:04:36,399:INFO:    python: 3.8.13 (default, Mar 28 2022, 06:16:26)  [Clang 12.0.0 ]
+2024-02-13 21:04:36,399:INFO:executable: /Users/eric/opt/anaconda3/envs/spark-env/bin/python
+2024-02-13 21:04:36,399:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:04:36,399:INFO:PyCaret required dependencies:
+2024-02-13 21:05:51,322:INFO:PyCaret ClassificationExperiment
+2024-02-13 21:05:51,322:INFO:Logging name: clf-default-name
+2024-02-13 21:05:51,323:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-02-13 21:05:51,323:INFO:version 3.2.0
+2024-02-13 21:05:51,323:INFO:Initializing setup()
+2024-02-13 21:05:51,323:INFO:self.USI: be08
+2024-02-13 21:05:51,323:INFO:self._variable_keys: {'logging_param', 'memory', 'y_test', 'n_jobs_param', 'fold_generator', 'fold_groups_param', 'X_test', 'exp_name_log', 'fold_shuffle_param', '_available_plots', 'y_train', 'idx', 'target_param', 'fix_imbalance', 'y', 'gpu_n_jobs_param', 'X_train', 'seed', 'USI', 'html_param', '_ml_usecase', 'pipeline', 'log_plots_param', 'exp_id', 'data', 'X', 'gpu_param', 'is_multiclass'}
+2024-02-13 21:05:51,323:INFO:Checking environment
+2024-02-13 21:05:51,324:INFO:python_version: 3.8.13
+2024-02-13 21:05:51,324:INFO:python_build: ('default', 'Mar 28 2022 06:16:26')
+2024-02-13 21:05:51,324:INFO:machine: x86_64
+2024-02-13 21:05:51,324:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:05:51,324:INFO:Memory: svmem(total=8589934592, available=508108800, percent=94.1, used=815222784, free=50528256, active=459718656, inactive=443371520, wired=355504128)
+2024-02-13 21:05:51,324:INFO:Physical Core: 8
+2024-02-13 21:05:51,324:INFO:Logical Core: 8
+2024-02-13 21:05:51,324:INFO:Checking libraries
+2024-02-13 21:05:51,324:INFO:System:
+2024-02-13 21:05:51,325:INFO:    python: 3.8.13 (default, Mar 28 2022, 06:16:26)  [Clang 12.0.0 ]
+2024-02-13 21:05:51,325:INFO:executable: /Users/eric/opt/anaconda3/envs/spark-env/bin/python
+2024-02-13 21:05:51,325:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:05:51,325:INFO:PyCaret required dependencies:
+2024-02-13 21:06:09,703:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:06:09,703:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:06:09,704:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:06:09,704:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-02-13 21:06:17,619:INFO:PyCaret ClassificationExperiment
+2024-02-13 21:06:17,620:INFO:Logging name: clf-default-name
+2024-02-13 21:06:17,620:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-02-13 21:06:17,620:INFO:version 3.2.0
+2024-02-13 21:06:17,620:INFO:Initializing setup()
+2024-02-13 21:06:17,620:INFO:self.USI: 6dcf
+2024-02-13 21:06:17,620:INFO:self._variable_keys: {'_ml_usecase', 'fold_shuffle_param', 'exp_name_log', 'logging_param', '_available_plots', 'y_train', 'is_multiclass', 'USI', 'idx', 'fix_imbalance', 'gpu_n_jobs_param', 'X_train', 'fold_generator', 'pipeline', 'gpu_param', 'X', 'fold_groups_param', 'log_plots_param', 'seed', 'y', 'y_test', 'n_jobs_param', 'exp_id', 'memory', 'data', 'html_param', 'X_test', 'target_param'}
+2024-02-13 21:06:17,620:INFO:Checking environment
+2024-02-13 21:06:17,620:INFO:python_version: 3.8.13
+2024-02-13 21:06:17,620:INFO:python_build: ('default', 'Mar 28 2022 06:16:26')
+2024-02-13 21:06:17,620:INFO:machine: x86_64
+2024-02-13 21:06:17,690:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:06:17,691:INFO:Memory: svmem(total=8589934592, available=499167232, percent=94.2, used=850771968, free=15200256, active=485117952, inactive=480129024, wired=365654016)
+2024-02-13 21:06:17,691:INFO:Physical Core: 8
+2024-02-13 21:06:17,691:INFO:Logical Core: 8
+2024-02-13 21:06:17,691:INFO:Checking libraries
+2024-02-13 21:06:17,691:INFO:System:
+2024-02-13 21:06:17,691:INFO:    python: 3.8.13 (default, Mar 28 2022, 06:16:26)  [Clang 12.0.0 ]
+2024-02-13 21:06:17,691:INFO:executable: /Users/eric/opt/anaconda3/envs/spark-env/bin/python
+2024-02-13 21:06:17,691:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:06:17,691:INFO:PyCaret required dependencies:
+2024-02-13 21:07:32,907:INFO:PyCaret ClassificationExperiment
+2024-02-13 21:07:32,908:INFO:Logging name: clf-default-name
+2024-02-13 21:07:32,908:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-02-13 21:07:32,908:INFO:version 3.2.0
+2024-02-13 21:07:32,908:INFO:Initializing setup()
+2024-02-13 21:07:32,908:INFO:self.USI: c99e
+2024-02-13 21:07:32,908:INFO:self._variable_keys: {'_ml_usecase', 'fold_shuffle_param', 'exp_name_log', 'logging_param', '_available_plots', 'y_train', 'is_multiclass', 'USI', 'idx', 'fix_imbalance', 'gpu_n_jobs_param', 'X_train', 'fold_generator', 'pipeline', 'gpu_param', 'X', 'fold_groups_param', 'log_plots_param', 'seed', 'y', 'y_test', 'n_jobs_param', 'exp_id', 'memory', 'data', 'html_param', 'X_test', 'target_param'}
+2024-02-13 21:07:32,908:INFO:Checking environment
+2024-02-13 21:07:32,908:INFO:python_version: 3.8.13
+2024-02-13 21:07:32,909:INFO:python_build: ('default', 'Mar 28 2022 06:16:26')
+2024-02-13 21:07:32,909:INFO:machine: x86_64
+2024-02-13 21:07:32,909:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:07:32,909:INFO:Memory: svmem(total=8589934592, available=526733312, percent=93.9, used=806244352, free=48492544, active=480907264, inactive=471683072, wired=325337088)
+2024-02-13 21:07:32,909:INFO:Physical Core: 8
+2024-02-13 21:07:32,910:INFO:Logical Core: 8
+2024-02-13 21:07:32,910:INFO:Checking libraries
+2024-02-13 21:07:32,910:INFO:System:
+2024-02-13 21:07:32,910:INFO:    python: 3.8.13 (default, Mar 28 2022, 06:16:26)  [Clang 12.0.0 ]
+2024-02-13 21:07:32,910:INFO:executable: /Users/eric/opt/anaconda3/envs/spark-env/bin/python
+2024-02-13 21:07:32,910:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:07:32,910:INFO:PyCaret required dependencies:
+2024-02-13 21:08:18,133:INFO:PyCaret ClassificationExperiment
+2024-02-13 21:08:18,133:INFO:Logging name: clf-default-name
+2024-02-13 21:08:18,134:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-02-13 21:08:18,134:INFO:version 3.2.0
+2024-02-13 21:08:18,134:INFO:Initializing setup()
+2024-02-13 21:08:18,134:INFO:self.USI: ff23
+2024-02-13 21:08:18,134:INFO:self._variable_keys: {'_ml_usecase', 'fold_shuffle_param', 'exp_name_log', 'logging_param', '_available_plots', 'y_train', 'is_multiclass', 'USI', 'idx', 'fix_imbalance', 'gpu_n_jobs_param', 'X_train', 'fold_generator', 'pipeline', 'gpu_param', 'X', 'fold_groups_param', 'log_plots_param', 'seed', 'y', 'y_test', 'n_jobs_param', 'exp_id', 'memory', 'data', 'html_param', 'X_test', 'target_param'}
+2024-02-13 21:08:18,134:INFO:Checking environment
+2024-02-13 21:08:18,134:INFO:python_version: 3.8.13
+2024-02-13 21:08:18,134:INFO:python_build: ('default', 'Mar 28 2022 06:16:26')
+2024-02-13 21:08:18,134:INFO:machine: x86_64
+2024-02-13 21:08:18,135:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:08:18,135:INFO:Memory: svmem(total=8589934592, available=509829120, percent=94.1, used=826793984, free=29298688, active=477704192, inactive=469676032, wired=349089792)
+2024-02-13 21:08:18,135:INFO:Physical Core: 8
+2024-02-13 21:08:18,135:INFO:Logical Core: 8
+2024-02-13 21:08:18,135:INFO:Checking libraries
+2024-02-13 21:08:18,135:INFO:System:
+2024-02-13 21:08:18,135:INFO:    python: 3.8.13 (default, Mar 28 2022, 06:16:26)  [Clang 12.0.0 ]
+2024-02-13 21:08:18,135:INFO:executable: /Users/eric/opt/anaconda3/envs/spark-env/bin/python
+2024-02-13 21:08:18,135:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2024-02-13 21:08:18,136:INFO:PyCaret required dependencies:
